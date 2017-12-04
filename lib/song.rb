@@ -1,5 +1,4 @@
 class Song
-  extend Concerns::Persistable
 
 attr_accessor :name, :artist, :genre
 
