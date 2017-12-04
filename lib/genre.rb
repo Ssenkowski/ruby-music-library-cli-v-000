@@ -1,6 +1,5 @@
 class Genre
   extend Concerns::Findable
-  extend Concerns::Persistable
 
   attr_accessor :genre, :artist, :songs, :name
 
@@ -23,7 +22,7 @@ class Genre
     @@all << genre
     genre
   end
-  
+
   def initialize(name)
     @name = name
     @songs = []
