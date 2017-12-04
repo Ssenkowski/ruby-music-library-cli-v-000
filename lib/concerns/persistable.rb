@@ -1,0 +1,3 @@
+module Concerns::Persistable
+  
+end
